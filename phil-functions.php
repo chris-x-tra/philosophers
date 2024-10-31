@@ -47,6 +47,6 @@ function phil_do_index()
 
   $fortune = new Fortune();
   for ($i=0; $i<=2; $i++) {
-        $fortune->CreateIndexFile($phil_files[$fortune_who]);
+        $fortune->CreateIndexFile($phil_files[$i]);
   }
 }
